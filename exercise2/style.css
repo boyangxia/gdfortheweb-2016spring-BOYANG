@@ -1,0 +1,29 @@
+body {
+	background-color: blue;
+	color:white;
+	background-image: url("bg.jpg");
+}
+
+.is-night {
+	background-color: black;
+}
+
+.is-night h1 {
+	background-color: black;
+}
+
+h1:hover {
+	background-color:white;
+}
+
+.no-indent {
+	text-indent: 0;
+}
+
+.sans {
+	font-family: sans-serif;
+}
+
+p {
+	text-indent: 100px;
+}
