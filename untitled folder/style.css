@@ -1,0 +1,21 @@
+body {
+	background-color: pink;
+}
+
+.shape {
+	height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: #3d9970;
+    position: relative;
+    margin-right: 20px; 
+    margin-left: 20px; 
+    margin-bottom: 20px;
+    margin-top: 10px;
+    z-index: 999;
+    text-align: center;
+    padding-top: 500px;
+    padding-bottom: 500px;
+
+}
+

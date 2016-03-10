@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+
+		<h1 class="heading">Compression by Abstraction: <br>
+			A Conversation About <br>Vectors</h1>
+
+		<div class="shape2 fontfamily"></div>
+
+		<div class="shape3 fontfamily"></div>
+
+		<img src="images/08.png" class="image">
+
+		<div class="shape fontfamily"></div>
+
+		<p class="textbox">Did you find Flash rendering vectors noticeably different from other vector software?
+		</p>
+
+		<div class="shape1 fontfamily"></div>
+
+		<p class="textbox">Flash as a piece of software has a very interesting history. It was originally called FutureSplash Animator, and was released by FutureWave Software in 1996. The company found a really interesting way of dealing with vector graphics that was very different to what we are used to from Adobe’s prevailing PostScript model, which is what most other applications and standards are using. Since the file format was designed for vector graphics animations on the web, it had to be rendered as fast as possible, and consume as little memory as possible when stored.
+
+		<br>.<br>.<br>.<br><br>
+
+		Their solution was to use only quadratic curves rather than the cubic bezier curves that we know for example from Adobe Illustrator. These are mathematically less complex and easier to render. And instead of having these curves describe shapes that are to be filled and/or stroked with colors, they decided that each curve (not shape) can describe a stroke, a fill color to its “left” and one to its “right.” It is hard to explain what this meant mathematically, but I am sure you know how this felt like when working with these curves in the application, as they found a really clever way to embed this into the user interface: you could treat vector graphics almost like pixels, fill any interior shape, cut through existing drawings with a simple line or curve, and move segments that were divided this way around independently. If you did not want this to happen, you could move things to a different layer, or group them.
+
+		<br>.<br>.<br>.<br><br>
+
+		All these technical differences behind  the scenes also means that the way these curves are rendered differs quite a bit from other approaches. I am not quite sure why, but I believe it is due to speed optimizations that were introduced in these early days, that Flash’s antialiasing never looked quite as good as it should have. There was weird rounding going on, coordinates were not stored as floating point numbers, but the less precise fixed point arithmetics were used, which seemed like a good way of optimizing things back then, but nowadays makes little difference and leads to imprecision.
+
+		<br>.<br>.<br>.<br><br>
+
+		Also, the initially really creative and powerful concept behind these curves unfortunately then got watered down through a series of acquisitions, first by Macromedia, and later by Adobe. Now it’s just a mess of many different models that are layered, like any software that Adobe acquired and merged into their Creative Suite.	
+		</p>
+
+		<div class="shape1 fontfamily"></div>
+
+		<p class="textbox">When you started working with Flash, were you attracted by this aesthetic? I think you have found a really good way to master it while avoiding all the pitfalls that come with the territory.
+		</p>
+
+		<div class="shape fontfamily"></div>
+
+		<p class="textbox">What is interesting is that most people need a level of irony or nostalgia to appreciate the beauty of something. It has to go through a number of years where something becomes safer. Think of early video games, it took 20 to 30 years for those images to be appropriated/used in art. Perhaps it’s the same with Flash, in 30 years Flash movies will have the same nostalgia (and warmth) as VHS tapes do now.
+
+		<br>.<br>.<br>.<br><br>
+
+		I chose Flash because it was the best tool for me. The choice was quite practical. small files, reliable, cross platform… Other options like JPEGs, Quicktimes, Shockwave, Java applets, were all bitmap based and did not scale well. Browser windows are never fixed size. I see the entire web page as my canvas, not part of it. So I needed an image format that can adapt to the wishes of the user.
+
+		<br>.<br>.<br>.<br><br>
+		
+		Is antialiasing a more truthful rendering of a vector shape on a pixel screen, or is it a lie?</p>
+
+		<div class="shape1 fontfamily"></div>
+
+		<p class="textbox">I can see how you could think of it as a lie, because it is using different shades of a color at the border of a shape to trick the eye into thinking there is more definition to the image. But at the same time, if you would print the shape at really high resolution on a paper, and then take a digital photograph of the printout at lower resolution, you would get very similar “blurred” borders. In that sense, I would call antialiasing (and even more so, subpixel rendering) a very convincing trick. One can also argue that any rendering of such pure information into a grid will be a lie, since it will be imprecise. An antialiased version of the same shape would then just be a more convincing lie. In that logic, I can see how an aliased version is then so obviously a “lie” that it is more approachable, likable.
+
+		<br>.<br>.<br>.<br><br>
+
+		This might be a rhetorical question, but which aesthetic do you prefer? Did you ever experiment with pixelized styles and aliased graphics? Do you see a risk of things looking nostalgic when going down that route?</p>
+
+		<div class="shape fontfamily"></div>
+
+		<p class="textbox">Yes, I felt like antialiased vectors are closer to what the vectors are. Ed Halter wrote that pixelated graphics are a form of “digital materialism,” they acknowledge that there are physical building blocks. But now those pixels are becoming so small that to show pixel art you have to use 4 or 9 or 16 pixels to show 1 pixel of a pixelated image. We are moving to post-pixel displays.</p>
+
+		<div class="shape1 fontfamily"></div>
+
+		<p class="textbox">I agree. Eventually, the two will become the same, and the artifacts will disappear. I feel the same about any kind of digital artifact, be it the blotchy JPEG compression, its animated twin with MPEGs, or the phonetic qualities of badly compressed MP3s. One could argue that’s the cathode ray tubes and the VHS of our times. The younger generation probably will hold similar nostalgic feelings for them once they are replaced with a new reality that is so intensely digital that it will overwhelm us with its perfection.
+
+		<br>.<br>.<br>.<br><br>
+
+		Are you looking forward to this moment where all these artifacts eventually will disappear? A sort of singularity where all media merge into one and become indistinguishable? The lack of any kind of artifact as the final artifact?</p>
+
+		<div class="shape fontfamily"></div>
+
+		<p class="textbox">I think the future is very uncertain. That is exciting and scary at the same time. I imagine at some point the idea of a display will be old. Why do we need displays? We will just inject ideas into our brains. Maybe we won’t even need ideas, we’ll just inject feelings…</p>
+
+		<a href="index4.html"><img src="images/04.jpg" class="image"></a>
+
+
+</body>
