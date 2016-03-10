@@ -1,0 +1,16 @@
+.monospace {
+	font-family: monospace;
+
+}
+
+
+.shape6 {
+  height:13px;
+  width:13px;
+  border-radius: 100%;
+  background-color: #000000;
+  z-index: 99;
+  position:relative;
+  margin-bottom: 25%
+}
+
