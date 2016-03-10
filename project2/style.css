@@ -107,26 +107,16 @@ body {
 }
 
 .shape6 {
-  height:13px;
-  width:13px;
-  border-radius: 5%;
-  background-color: #00faff;
-  z-index: 99;
-  position:relative;
-  margin-left: 35%;
-}
-
-.shape7 {
-  height:15px;
-  width:15px;
+  height:30px;
+  width:30px;
   border-radius: 100%;
-  background-color: #f800ff;
+  background-color: #ffffff;
   z-index: 99;
   position:relative;
-  margin-top: 150px;
   margin-left: 35%;
-
+  margin-bottom: 25%
 }
+
 
 
 .textbox {
