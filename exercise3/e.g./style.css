@@ -1,0 +1,11 @@
+.hovered {
+	font-size: 30px;
+}
+
+.clicked {
+	background-color: red;
+}
+
+.background {
+	background-color: yellow;
+}
