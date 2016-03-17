@@ -3,6 +3,12 @@ body {
 	color:white;
 }
 
+.backgroundblack {
+  background-color: black
+  height:100%;
+  width:100%;
+}
+
 .heading {
   position: absolute;
   font-family: Futura;
@@ -21,6 +27,10 @@ body {
   top:2em;
   left:.4em;
   z-index: 999999;
+}
+
+.size {
+  width:100%;
 }
 
 .index {
