@@ -12,6 +12,27 @@ body {
   padding-left: 9%
 }
 
+.arrow {
+  position: absolute;
+  font-family: Futura;
+  color:white;
+  font-size: 250px;
+  background-position: center;
+  top:2em;
+  left:.4em;
+  z-index: 999999;
+}
+
+.index {
+  font-family: Futura;
+  color:white;
+  font-size: 200px;
+  background-position: center;  
+  padding-bottom: 100px; 
+  padding-left: 100px;
+}
+
+
 .fontfamily {
   font-family: Futura;
   font-size: 20px;
@@ -50,6 +71,33 @@ body {
   height: 60%;
   width: 95%;
 /*  border-radius: 10%;*/
+  background-color: white;
+  position: relative; 
+  margin-left: 44px; 
+  margin-bottom: 20px;
+  margin-top: 20px;
+  z-index: 999;
+  text-align: center;
+  padding-top: 200px;
+}
+
+
+.shape2 {
+  height: 150%;
+  width: 97%;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  margin-right: 100px; 
+  margin-left: 44px; 
+  z-index: 9;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.shape3 {
+  height: 120%;
+  width: 95%;
   background-color: white;
   position: relative; 
   margin-left: 44px; 
@@ -175,7 +223,108 @@ body, html {
 
 
 
+#link2 {
+  background-image: url('images/homochromy/03.png');
+  position: absolute;
+  top: 160000px;
+  height: 1049px;
+  width:1500px;
+  z-index: 99999;
+}
 
+#link2:hover {
+  background-image: url('images/origin/03.png')
+}
+
+
+
+
+#link3 {
+  background-image: url('images/homochromy/04.png');
+  position: absolute;
+  top: 170000px;
+  height: 1049px;
+  width:1500px;
+  z-index: 99999;
+}
+
+#link3:hover {
+  background-image: url('images/origin/04.png')
+}
+
+
+
+
+#link4 {
+  background-image: url('images/homochromy/05.png');
+  position: absolute;
+  top: 180000px;
+  height: 1049px;
+  width:1500px;
+  z-index: 99999;
+}
+
+#link4:hover {
+  background-image: url('images/origin/05.png')
+}
+
+
+
+
+#link5 {
+  background-image: url('images/homochromy/06.png');
+  position: absolute;
+  top: 190000px;
+  height: 1049px;
+  width:1500px;
+  z-index: 99999;
+}
+
+#link5:hover {
+  background-image: url('images/origin/06.png')
+}
+
+
+
+#link01 {
+  background-image: url('images/index/01.png');
+  position: absolute;
+  height: 140%;
+  width:100%;
+  z-index: 99999;
+}
+
+#link01:hover {
+  background-image: url('images/index/02.png')
+}
+
+
+#link02 {
+  background-image: url('images/index/03.png');
+  position: absolute;
+  top:1000px;
+  height: 140%;
+  width:100%;
+  z-index: 99999;
+}
+
+#link02:hover {
+  background-image: url('images/index/04.png')
+}
+
+
+#link03 {
+  background-image: url('images/index/05.png');
+  position: absolute;
+  top:2000px;
+  height: 140%;
+  width:100%;
+  z-index: 99999;
+}
+
+#link03:hover {
+  background-image: url('images/index/06.png')
+}
 
 
 
