@@ -68,10 +68,17 @@
 
 		h1.animate {
 			font-size: 200px;
+			font-family: Futura;
 		}
 
+		.info {
+			font-size: 50px;
+			font-family:Futura;
+		}
+
+
 		.scroll {
-			height:500px;
+			height:300px;
 			background-color: white;
 		}
 
@@ -99,7 +106,10 @@
 			<div style="clear:both"></div>
 		</div>
 
-		<h1>James Goggin</h1>
+		<h1><b>James Goggin</b></h1>
+
+		<div class="info"><p><b>Feb 29<br>5:30pm<br>Commons</b>
+		</p></div>
 
 		<div class="scroll"></div>
 
@@ -121,7 +131,7 @@
 				$('.greenbox').removeClass('animate');
 			}
 
-			if($(this).scrollTop()>=100){
+			if($(this).scrollTop()>=150){
 				$('.bluebox').addClass('animate');
 				$('.yellowbox').addClass('animate');
 
