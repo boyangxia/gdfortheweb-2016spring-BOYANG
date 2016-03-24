@@ -1,18 +1,16 @@
 .monospace {
 	font-family: monospace;
-	font-size: 50px;
+	font-size: 200px;
 
 }
 
 
 .shape6 {
-  height:15px;
-  width:15px;
+  height:50px;
+  width:50px;
   border-radius: 100%;
   background-color: #000000;
-  z-index: 99;
-  position:relative;
-  margin-left: 1%
+  margin-left: 10%
 
 }
 
