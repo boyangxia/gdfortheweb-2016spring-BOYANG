@@ -25,7 +25,7 @@
 			float: left;
 			margin-left: 100px;
 			margin-right: 100px;
-			transition: 2s ease-in-out;
+			transition: 1s ease-in-out;
 			margin-top: 200px;
 		}
 
@@ -67,11 +67,11 @@
 		}
 
 		h1.animate {
-			font-size: 100px;
+			font-size: 200px;
 		}
 
 		.scroll {
-			height:1000px;
+			height:500px;
 			background-color: white;
 		}
 
@@ -112,7 +112,7 @@
 		$(window).scroll(function(){
 			console.log($(this).scrollTop());
 
-			if($(this).scrollTop()>=100){
+			if($(this).scrollTop()>=50){
 				$('.redbox').addClass('animate');
 				$('.greenbox').addClass('animate');
 
@@ -121,7 +121,7 @@
 				$('.greenbox').removeClass('animate');
 			}
 
-			if($(this).scrollTop()>=200){
+			if($(this).scrollTop()>=100){
 				$('.bluebox').addClass('animate');
 				$('.yellowbox').addClass('animate');
 
