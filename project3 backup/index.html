@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>project 3</title>
+	<link rel="stylesheet" type="text/css" href="css.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	<style>
+		.container {
+			height: 500px;
+			text-align: center;
+		}
+
+		.container2 {
+			height: 1000px;
+			width:800px;
+			margin-left: auto;
+			margin-right: auto;
+/*			background-color: grey;*/
+		}
+
+		.box {
+			width:200px;
+			height: 200px;
+			border-radius: 50%;
+			float: left;
+			margin-left: 100px;
+			margin-right: 100px;
+			transition: 1s ease-in-out;
+			margin-top: 200px;
+		}
+
+		.redbox{
+			background:red;
+		}
+
+		.greenbox {
+			background:green;
+		}	
+
+		.bluebox {
+			background:blue;
+		}	
+
+		.yellowbox {
+			background: yellow;
+		}
+
+		.redbox.animate{
+			-webkit-transform: translate(400px,0);
+		}
+
+		.greenbox.animate{
+			-webkit-transform: translate(-400px,0);
+		}
+
+
+		.bluebox.animate{
+			-webkit-transform: translate(400px,0);
+		}
+
+		.yellowbox.animate{
+			-webkit-transform: translate(-400px,0);
+		}
+		h1 {
+			transition: 2s ease-in-out;
+
+		}
+
+		h1.animate {
+			font-size: 200px;
+			font-family: Futura;
+		}
+
+		.info {
+			font-size: 50px;
+			font-family:Futura;
+			color:#542189;
+		}
+
+
+		.scroll {
+			height:300px;
+			background-color: white;
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+
+	<div class="container">
+
+		<div class="container2">
+
+			<div class="box redbox"></div>
+
+			<div class="box greenbox"></div>
+
+			<div style="clear:both"></div>
+
+			<div class="box bluebox"></div>
+
+			<div class="box yellowbox"></div>
+
+			<div style="clear:both"></div>
+		</div>
+
+		<a href="http://www.practise.co.uk" target="_blank"><h1><b>James Goggin</b></h1></a>
+
+		<div class="info"><p><b>Feb 29<br>5:30pm<br>Commons</b>
+		</p></div>
+
+		<div class="scroll"></div>
+
+	</div>	
+
+
+	<script src="jquery.js"></script>
+
+	<script>
+		$(window).scroll(function(){
+			console.log($(this).scrollTop());
+
+			if($(this).scrollTop()>=50){
+				$('.redbox').addClass('animate');
+				$('.greenbox').addClass('animate');
+
+			}else{
+				$('.redbox').removeClass('animate');
+				$('.greenbox').removeClass('animate');
+			}
+
+			if($(this).scrollTop()>=150){
+				$('.bluebox').addClass('animate');
+				$('.yellowbox').addClass('animate');
+
+			}else{
+				$('.bluebox').removeClass('animate');
+				$('.yellowbox').removeClass('animate');
+			}
+
+			if($(this).scrollTop()>=250){
+				$('h1').addClass('animate');
+			}else{
+				$('h1').removeClass('animate');
+			}
+		});
+	 </script>
+
+	<script src="main.js"></script>
+
+</body>
+</html>
