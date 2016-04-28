@@ -14,3 +14,11 @@
 
 }
 
+.shape7 {
+  height:100px;
+  width:100px;
+  border-radius: 30%;
+  background-color: #000000;
+  margin-left: 10%
+
+}
