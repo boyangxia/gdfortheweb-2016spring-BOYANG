@@ -13,18 +13,19 @@
             var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
             var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
 
-            var t = -540 + dualScreenTop;
-            var l = -900 + dualScreenLeft;
+            var t = 270 + dualScreenTop;
+            var l = 270 + dualScreenLeft;
 
-            newwindow=window.open(url,'name5','height=450,width=300,top=' + t + ',left=' + l);
+            newwindow=window.open(url,'name5','height=650,width=500,top=' + t + ',left=' + l);
             if (window.focus) {newwindow.focus()}
             return false;
         }
+        window.onload = popitup('index6.html');
         </script>
 
 <style>
 html {
-  background: url(gifs/05.gif) no-repeat center center fixed; 
+  background: url(gifs/04.gif) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

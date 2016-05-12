@@ -13,13 +13,14 @@
             var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
             var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
 
-            var t = -590 + dualScreenTop;
-            var l = -120 + dualScreenLeft;
+            var t = 3 + dualScreenTop;
+            var l = 630 + dualScreenLeft;
 
-            newwindow=window.open(url,'name7','height=430,width=300,top=' + t + ',left=' + l);
+            newwindow=window.open(url,'name7','height=500,width=400,top=' + t + ',left=' + l);
             if (window.focus) {newwindow.focus()}
             return false;
         }
+        window.onload = popitup('index8.html');
         </script>
 
 <style>

@@ -14,17 +14,18 @@
             var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
 
             var t = 340 + dualScreenTop;
-            var l = 900 + dualScreenLeft;
+            var l = -100 + dualScreenLeft;
 
-            newwindow=window.open(url,'name8','height=500,width=400,top=' + t + ',left=' + l);
+            newwindow=window.open(url,'name8','height=500,width=650,top=' + t + ',left=' + l);
             if (window.focus) {newwindow.focus()}
             return false;
         }
+        window.onload = popitup('index9.html');
         </script>
 
 <style>
 html {
-  background: url(gifs/04.gif) no-repeat center center fixed; 
+  background: url(gifs/07.gif) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
