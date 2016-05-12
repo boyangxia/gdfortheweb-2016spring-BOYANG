@@ -7,7 +7,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script type="text/javascript" src="main.js"></script>
 
-
+<!-- 
  		<script language="javascript" type="text/javascript">
         function popitup(url) {
             var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
@@ -22,6 +22,29 @@
         }
         window.onload = popitup('index3.html');
         </script>
+   -->
+
+
+      <script language="javascript" type="text/javascript">
+      </script>
+
+      <script language="javascript" type="text/javascript">
+        function popitup() {
+            var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+            var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+
+            var t = 130 + dualScreenTop;
+            var l = 430+ dualScreenLeft;
+
+            newwindow=window.open('index3.html','name2','height=500,width=650,top=' + t + ',left=' + l);
+            if (window.focus) {newwindow.focus()}
+            return false;
+        }
+        // window.onload = popitup();
+
+        setTimeout(popitup, 3000);
+        </script>
+
 
 <style>
 html {

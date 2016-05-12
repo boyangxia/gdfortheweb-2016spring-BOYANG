@@ -9,18 +9,19 @@
 
 
         <script language="javascript" type="text/javascript">
-        function popitup(url) {
+        function popitup() {
             var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
             var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
 
             var t = -10 + dualScreenTop;
             var l = -850 + dualScreenLeft;
 
-            newwindow=window.open(url,'name3','height=620,width=750,top=' + t + ',left=' + l);
+            newwindow=window.open('index4.html','name3','height=620,width=750,top=' + t + ',left=' + l);
             if (window.focus) {newwindow.focus()}
             return false;
         }
-        window.onload = popitup('index4.html');
+        // window.onload = popitup('index4.html');
+        setTimeout(popitup, 2500);
 
         </script>
 
